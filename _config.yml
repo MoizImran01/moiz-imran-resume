@@ -1,45 +1,37 @@
 # Site
-repository: sproogen/resume-theme
+repository: MoizImran01/MoizImran01.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Moiz Imran
+title: CS Student | ML & Full-Stack Developer (MERN)
+email: moizimran832@gmail.com
+website: github.com/MoizImran01
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: MoizImran01
+linkedin_username: moiz-imran01
+# twitter_username:
+# instagram_username:
+# youtube_username:
+# stackoverflow_username:
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: moizimran832@gmail.com
+  icon: fas fa-envelope
+  url: mailto:moizimran832@gmail.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
@@ -48,69 +40,94 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I'm Moiz — a final-year Computer Science undergraduate at **Lahore University of Management Sciences (LUMS)** with a strong foundation in Machine Learning, Artificial Intelligence, and Full-Stack Web Development (MERN).
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I enjoy building dynamic & responsive web apps and training deep learning models (Neural Networks, CNNs) using PyTorch. I'm passionate about leveraging ML to build smart, user-focused AI-powered web platforms.
+
+  I am most skilled in: <mark>MERN Stack</mark>, <mark>PyTorch</mark>, <mark>Machine Learning</mark>, and <mark>Python</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: ARKAD — Mines & Minerals Inventory System
+        sub_title: Final Year Project
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: MoizImran01/ARKAD
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/MoizImran01
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A B2B inventory & sales platform built with the MERN stack to digitize manual workflows in the mining industry.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Developing a B2B inventory & sales platform using the <mark>MERN stack</mark> to digitize manual workflows. Engineered a real-time stock tracking system with **QR-code integration** for factory staff and an automated **PDF quotation generator** for sales teams. Integrating an AI-powered **demand forecasting** system and CRM module to predict inventory needs and analyze customer purchasing behavior.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: ColorGrid — Multiplayer Online Game
+        additional_links:
+          - title: MoizImran01/ColorGrid
+            icon: fab fa-github
+            url: https://github.com/MoizImran01
+        quote: >
+          A real-time turn-based multiplayer game with live leaderboards and match history.
+        description: | # this will include new lines to allow paragraphs
+          Created a turn-based real-time multiplayer game using <mark>Socket.IO</mark>. Implemented bi-directional game state synchronization to enable seamless interaction between players, secure user authentication and credentials storage. Built features such as customizable profiles, match history logging, and a dynamic leaderboard to track player performance.
+
+      - layout: top-middle
+        title: MNIST Digit Classification — Feedforward Neural Network
+        sub_title: PyTorch
+        quote: >
+          97.25% validation accuracy on handwritten digit classification.
+        description: | # this will include new lines to allow paragraphs
+          Designed and trained a **3-layer neural network** in <mark>PyTorch</mark> to classify handwritten digits from the MNIST dataset. Preprocessed data using normalization and ToTensor transformations, implemented **ReLU activation** and **Cross-Entropy Loss**, and optimized training with **SGD** (momentum=0.9), achieving a **97.25% validation accuracy**.
+
+      - layout: top-middle
+        title: CIFAR-10 Image Classification — Convolutional Neural Network
+        sub_title: PyTorch
+        quote: >
+          77.94% validation accuracy on 10-class RGB image classification.
+        description: | # this will include new lines to allow paragraphs
+          Designed and trained a robust **CNN architecture** in <mark>PyTorch</mark> to classify RGB images from the CIFAR-10 dataset into 10 categories. Implemented a 3-channel input processing pipeline with **data augmentation** and normalization, achieving **77.94% validation accuracy**.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Lahore University of Management Sciences (LUMS)
+        caption: Expected Graduation — May 2026
+        sub_title: BS Computer Science
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          LUMS is one of Pakistan's leading research universities, consistently ranked among the top institutions in South Asia.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          **CGPA: 3.3 / 4.0**
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          Relevant Coursework: MERN-Stack Web Development · Data Structures & Algorithms · AI & Machine Learning · Deep Learning · Data Science · Object-Oriented Programming · Network Centric Computing
+
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: International School of Lahore
+        caption: 2020 – 2022
+        sub_title: A-Levels, Pre-Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          **Grades: 2A\*, 1A**
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Beaconhouse Defence Campus
+        caption: 2017 – 2020
+        sub_title: O-Levels, Sciences
+        description: | # this will include new lines to allow paragraphs
+          **Grades: 6A\*, 1A**
 
-  - title: A Little More About Me
+  - title: Skills & Expertise
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      **Programming Languages**
+      <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>C++</mark> <mark>C</mark> <mark>HTML</mark> <mark>CSS</mark>
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      **Technologies & Frameworks**
+      <mark>React.js</mark> <mark>Node.js</mark> <mark>Express.js</mark> <mark>Socket.IO</mark> <mark>Bootstrap</mark> <mark>PyTorch</mark> <mark>Git / GitHub</mark>
+
+      **Databases**
+      <mark>MongoDB</mark>
 
 # Footer
 footer_show_references: true
